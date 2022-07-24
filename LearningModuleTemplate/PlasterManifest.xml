@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plasterManifest
+  schemaVersion="1.1"
+  templateType="Item" xmlns="http://www.microsoft.com/schemas/PowerShell/Plaster/v1">
+  <metadata>
+    <name>LearningModuleTemplate</name>
+    <id>b8a4bf6e-75b3-4d29-9a59-caf487825cbf</id>
+    <version>0.0.1</version>
+    <title>Learning Module Template</title>
+    <description></description>
+    <author>Tyler Hemingsen</author>
+    <tags></tags>
+  </metadata>
+  <parameters></parameters>
+  <content></content>
+</plasterManifest>
