@@ -21,14 +21,14 @@
     <message>
       Creating folder structure
     </message>
-    <file source='' destination='\docs\images' />
-    <file source='' destination='\tests' />
-    <file source='' destination='\spec' />
-    <file source='' destination='\tests' />
-    <file source='' destination='\${PLASTER_PARAM_ModuleName}\public' />
-    <file source='' destination='\${PLASTER_PARAM_ModuleName}\private'/>
-    <file source='' destination='\${PLASTER_PARAM_ModuleName}\classes'/>
-    <file source='' destination='\${PLASTER_PARAM_ModuleName}\data'/>
+    <file source='' destination='docs\images' />
+    <file source='' destination='tests' />
+    <file source='' destination='spec' />
+    <file source='' destination='tests' />
+    <file source='' destination='${PLASTER_PARAM_ModuleName}\public' />
+    <file source='' destination='${PLASTER_PARAM_ModuleName}\private'/>
+    <file source='' destination='${PLASTER_PARAM_ModuleName}\classes'/>
+    <file source='' destination='${PLASTER_PARAM_ModuleName}\data'/>
 
     <message>
       Deploying common files
@@ -41,21 +41,21 @@
     <file source='\root\psake.ps1'    destination='\'/>
     <file source='\root\readme.ps1'   destination='\'/>
 
-    <file source='\root\docs\about.md' destination='\docs'/>
-    <file source='\root\docs\acknowledgements.md' destination='\docs'/>
-    <file source='\root\docs\index.md' destination='\docs'/>
-    <file source='\root\docs\Quick-Start-Installation-and-Example.md' destination='\docs'/>
+    <file source='\root\docs\about.md' destination='docs'/>
+    <file source='\root\docs\acknowledgements.md' destination='docs'/>
+    <file source='\root\docs\index.md' destination='docs'/>
+    <file source='\root\docs\Quick-Start-Installation-and-Example.md' destination='docs'/>
 
-    <file source='\root\tests\Project.Tests.ps1' destination='\tests'/>
-    <file source='\root\tests\Help.Tests.ps1' destination='\tests'/>
-    <file source='\root\tests\Feature.Tests.ps1' destination='\tests'/>
-    <file source='\root\tests\Regression.Tests.ps1' destination='\tests'/>
-    <file source='\root\tests\Unit.Tests.ps1' destination='\tests'/>
+    <file source='\root\tests\Project.Tests.ps1' destination='tests'/>
+    <file source='\root\tests\Help.Tests.ps1' destination='tests'/>
+    <file source='\root\tests\Feature.Tests.ps1' destination='tests'/>
+    <file source='\root\tests\Regression.Tests.ps1' destination='tests'/>
+    <file source='\root\tests\Unit.Tests.ps1' destination='tests'/>
 
-    <file source='\root\spec\module.feature' destination='\spec'/>
-    <file source='\root\spec\module.Steps.ps1' destination='\spec'/>
+    <file source='\root\spec\module.feature' destination='spec'/>
+    <file source='\root\spec\module.Steps.ps1' destination='spec'/>
 
-    <file source='\root\module\module.psm1' destination='\${PLASTER_PARAM_ModuleName}\${PLASTER_PARAM_ModuleName}.psm1'/>
+    <file source='\root\module\module.psm1' destination='${PLASTER_PARAM_ModuleName}\${PLASTER_PARAM_ModuleName}.psm1'/>
 
     <newModuleManifest 
         destination='\${PLASTER_PARAM_ModuleName}\${PLASTER_PARAM_ModuleName}.psd1'
