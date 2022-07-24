@@ -11,7 +11,12 @@
     <author>Tyler Hemingsen</author>
     <tags></tags>
   </metadata>
-  <parameters></parameters>
+  <parameters>
+    <paremeter name="FullName" type="Text" prompt="Module author's name" />
+    <parameter name="ModuleName" type="text" prompt="Name of your module" />
+    <parameter name="ModuleDesc" type="text" prompt="Brief description on this module" />
+    <parameter name="Version" type="text" prompt="Initial module version"  default="0.0.1"/>
+  </parameters>
   <content>
     <message>
       Creating folder structure
@@ -59,6 +64,6 @@
         author='$PLASTER_PARAM_FullName'
         description='$PLASTER_PARAM_ModuleDesc'
         encoding='UTF8-NoBOM'/>
-        
+
   </content>
 </plasterManifest>
